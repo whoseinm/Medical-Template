@@ -1,0 +1,323 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+#main{
+    width: 100%;
+    min-height: 70px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* -----------------------------------=============================Header Baslangic=============================------------------------------------ */
+#main #header{
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+#main #header img{
+    margin: 0px 0px 0px 300px;
+}
+
+#main #header ul{
+    display: flex;
+    margin-right: 200px;
+}
+
+#main #header ul li{
+    padding-left: 50px;
+    list-style-type: none;
+}
+
+#main #header ul li a{
+    text-decoration: none;
+    color: #020A21;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+}
+
+#main #header ul li a:hover{
+    color: #3B5DCD;
+}
+/* -----------------------------------=============================Header Bitis=============================------------------------------------ */
+
+/* -----------------------------------=============================Banner Baslangic=============================------------------------------------ */
+
+#main #banner #banner1{
+    width: 100%;
+    height: 800px;
+    background-image: url(../imgs/banner.png);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main #banner #banner1 #text_banner{
+    width: 500px;
+    height: 600px;
+    /* background-color: #020A21; */
+    margin: 100px 0px 0px -600px;
+    /* position: absolute;
+    top: 200px;
+    left: 100px; */
+}
+
+#main #banner #banner1 #text_banner h1{
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+#main #banner #banner1 #text_banner p{
+    font-size: 19px;
+    color: #8F7B79;
+    font-family: sans-serif;
+}
+
+#main #banner #banner1 #text_banner button{
+    padding: 10px 20px;
+    background: #0051D2;
+    color: white;
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+    transition: ease-in-out 0.4s;
+    padding-left: 20px;
+}
+#main #banner #banner1 #text_banner button:hover{
+    background-color: transparent;
+    border-color: black;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/* -----------------------------------=============================Banner Bitis=============================------------------------------------ */
+
+/* -----------------------------------=============================Features Baslangic=============================------------------------------------ */
+
+#main #features #bg_img{
+    width: 100%;
+    height: 302px;
+    background-image: url("../imgs/bg.png");
+}
+
+#main #features #bg_img #boxes{
+    width: 100%;
+    height: 302px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#main #features #bg_img #boxes #box1,#box2,#box3{
+    width: 360px;
+    height: 182px;
+    background-color: white;
+    margin-right: 40px;
+}
+
+#main #features #bg_img #boxes i{
+    font-size: 35px;
+    color: #0051DB;
+    margin-left: -5px;
+}
+#main #features #bg_img #boxes p{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 20px 0px 0px 40px;
+    font-family: sans-serif;
+}
+
+#main #features #bg_img #boxes strong,b{
+    font-weight: lighter;
+    font-family: sans-serif;
+    color: #8F7B79;
+    font-size: 16px;
+    padding-left: 35px;
+}
+/* -----------------------------------=============================Features Bitis=============================------------------------------------ */
+
+/* -----------------------------------=============================Services Baslangic=============================------------------------------------ */
+#main #service{
+    width: 100%;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    /* z-index: 1; */
+}
+#main #service .container{
+    width: 1170px;
+    height: 540px;
+    margin-top: 130px;
+    display: flex;
+    align-items: flex-end;
+
+}
+#main #service #container1{
+    width: 1170px;
+    height: 200px;
+    margin-top: 140px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#main #service #container1 h1{
+    font-size: 30px;
+    padding-left: 10px;
+}
+#main #service #container1 p{
+    font-size: 14px;
+    color: #797979;
+    padding-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+}
+#main #service .container #boxes2{
+    width: 1170px;
+    height: 385px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+#main #service .container #boxes2 #box_1{
+    width: 360px;
+    height: 385px;
+    background: white;
+    border: 1px solid #e8edf1;
+    position: relative;
+}
+
+#main #service .container #boxes2 #box_2{
+    width: 360px;
+    height: 385px;
+    background: white;
+    position: relative;
+    border: 1px solid #e8edf1;
+}
+
+#main #service .container #boxes2 #box_3{
+    width: 360px;
+    height: 385px;
+    background: white;
+    position: relative;
+    border: 1px solid #e8edf1;
+}
+
+#main #service .container #boxes2 .fa-icon-border{
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+    color: #64464E;
+    border-radius: 50%;
+    background: #ECF0F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main #service .container #boxes2 hr{
+    width: 300px;
+    color: #E8EDF1;
+}
+#main #service .container #boxes2 p{
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    padding-left: 30px;
+    padding: 0px 0px 0px 30px;
+}
+
+#main #service .container #boxes2 b,h2{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#main #service .container #boxes2 b{
+    margin-left: -5px;
+}
+
+#main #service .container #boxes2 h2{
+    margin-left: 30px;
+}
+/* -----------------------------------=============================Services Bitis=============================------------------------------------ */
+
+/* -----------------------------------=============================Guys Baslangic=============================------------------------------------ */
+#main #guys .container{
+    width: 100%;
+    min-height: 100px;
+    margin-left: -1000px;
+}
+
+#main #guys .container #container{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#main #guys {
+    width: 100%;
+    height: 916px;
+    background-image: url("../imgs/bg_2.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+#main #guys  img{
+    position: relative;
+    top: 400px;
+    left: 150px;
+}
+#main #guys  #text_guys{
+    width: 487px;
+    height: 406px;
+    position: relative;
+}
+#main #guys  #text_guys h1{
+    position: relative;
+    left: 1000px;
+    top: -200px;
+    font-size: 35px;
+}
+
+#main #guys  #text_guys p{
+    position: relative;
+    left: 1000px;
+    top: -200px;
+    font-size: 16px;
+    color: #0075DD;
+}
+
+#main #guys  #text_guys strong{
+    position: relative;
+    left: 1000px;
+    top: -200px;
+    font-size: 16px;
+    color: #797979;
+    font-weight: lighter;
+}
+#main #guys  #text_guys a{
+    text-decoration: none;
+    position: relative;
+    left: 1000px;
+    top: -160px;
+    font-size: 16px;
+    color: #797979;
+    font-weight: lighter;
+    border-bottom: 2px solid transparent;
+    transition: ease-in-out 0.2s;
+}
+#main #guys  #text_guys a:hover{
+    border-color: #0051D4;
+    color: #0051D4;
+}
